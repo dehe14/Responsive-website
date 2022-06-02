@@ -555,7 +555,6 @@ nav {
     line-height: 2.6rem;
     letter-spacing: 0px;
     text-align: left;
-    
 }
 
 .carousel_container h2{
@@ -618,9 +617,7 @@ nav {
     overflow: hidden;
 }
 
-.article_exaple img{
-    width: 100%;
-}
+
 
 .article_image_container{
     width: 100%;
@@ -646,3 +643,136 @@ nav {
 
 }
 
+                                                                            /* price section */
+
+.price_section{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+}
+
+
+.price_section p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.price_section h2{
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 5.1rem;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.price_section h3{
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+
+.price_tables_wrap{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10rem;
+    
+}
+
+.price_table {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 20%;
+    gap: 1.5rem;
+    padding: 4rem 0;
+}
+
+
+
+.price_left p{
+    font-size: 7.6rem;
+    font-weight: 700;
+    line-height: 10rem;
+    text-align: center;
+    color: var(--second_color);
+}
+
+.price_right p:first-of-type{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: left;
+    color: var(--second_color);
+}
+.price_right p:last-of-type{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    text-align: left; 
+    color: rgba(175, 175, 175, 1);
+
+}
+
+
+.price_display{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items:center;
+    gap: 1rem;
+}
+
+.price_right{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.package_description{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_table:hover {
+    background-color: var(--second_color);
+    color: white;
+}
+
+.price_table:hover p{
+    background-color: var(--second_color);
+    color: white;
+}
+.price_table:hover button{
+    color: var(--second_color);
+    background-color: white;
+}
+
+.price_table button{
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    letter-spacing: 0em;
+    text-align: center;
+
+    min-width: 15rem;
+    min-height: 4rem;
+    margin: 0 auto;
+}
