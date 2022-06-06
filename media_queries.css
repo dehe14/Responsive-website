@@ -152,6 +152,11 @@
         min-width: 22rem;
     }
 
+    .reviews_container{
+        flex-flow: column;
+        gap: 1.5rem;
+    }
+
 }
 
 
@@ -310,5 +315,10 @@
         width: 55%;
         max-width: 30rem;
         min-width: 22rem;
+    }
+
+    .reviews_container{
+        flex-flow: column;
+        gap: 1.5rem;
     }
 }
