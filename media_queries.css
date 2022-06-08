@@ -154,7 +154,17 @@
 
     .reviews_container{
         flex-flow: column;
+        align-items: center;
         gap: 1.5rem;
+    }
+
+    .banner{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .banner_description{
+        align-items: center;
     }
 
 }
@@ -319,6 +329,29 @@
 
     .reviews_container{
         flex-flow: column;
+        align-items: center;
         gap: 1.5rem;
+    }
+
+    .banner{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .banner_description{
+        align-items: center;
+    }
+
+    .banner_image{
+        width: 100%;
+    }
+    .footer_content_container{
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        gap: 5rem;
+    }
+    .footer_fourth_column{
+        align-items: center;
     }
 }
