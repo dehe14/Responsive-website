@@ -356,7 +356,7 @@ nav {
 }
 
 .bg_border{
-    background-image: url(/assets/backgrounds/bg_border_down.png);
+    background-image: url("/assets/bg_border_down.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -494,7 +494,7 @@ nav {
     justify-content:center;
     align-items: center;
     gap: 3rem;
-    background-image: url("/assets/backgrounds/bg_border_up.png");
+    background-image: url("/assets/bg_border_up.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
